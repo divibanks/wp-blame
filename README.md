@@ -1,5 +1,8 @@
 # WP Blame
 
+![banner-1544x500 (1)](https://github.com/wpcorner/wp-blame/assets/97313939/945c79a4-cc0e-426b-afb4-a0bcb43dc65a)
+
+
 [WP Blame](https://wordpress.org/plugins/wp-blame/) gives you the ability to log the actions of all your website's users to keep track of what is going on.
 
 ## Key features include…
