@@ -120,4 +120,4 @@ Yes, WP Blame is fully compatible with WordPress multisite installations.
 
 = 2.1.6 = 
 
-* Major Fix: Fixed the error occurring in the 'prepare_items()' method, specifically in the pagination calculation..
+* This version fixes a critical error that was preventing the log list from displaying properly. All users are encouraged to update immediately.
