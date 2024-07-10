@@ -15,21 +15,45 @@ Keep a record of the activity on your website.
 
 = About =
 
-WP Blame lets you keep a record of everything that has happened on your website by logging the actions of your users in a simple but useful table of data.
+WP Blame lets you keep a record of everything that has happened on your website by logging the actions of your users in a simple but useful table of data. This plugin is your go-to solution for maintaining a complete audit trail of all user activities on your WordPress site. Whether you're a site administrator, developer, or security professional, WP Blame provides you with the insights you need to keep your site secure and well-managed.
+
+= Key Features =
+
+* **Comprehensive Logging:** Track all user actions including post edits, plugin activations, theme changes, and more.
+* **User-Friendly Interface:** View all logged activities in an easy-to-read table right in your WordPress admin area.
+* **Detailed Information:** Each log entry includes the user, action type, affected item, and date stamp.
+* **User-Based Log Control:** Decide which usernames of people who should not have their actions logged.
+
+= Perfect For =
+
+* Troubleshooting unexpected changes
+* Monitoring user activity for security purposes
+* Maintaining compliance with audit requirements
+* Tracking the history of your site's development and content changes
 
 = Developers =
 
 There are currently no hooks available for this plugin as of yet, however whilst it is discouraged, you can log actions using the `WPB_Log_Hooks::save_new_log` function.
 
+= Stay Updated and Contribute =
+
+WP Blame is an open-source project and we welcome contributions! Follow the development, report issues, or contribute code on our [GitHub repository](https://github.com/wpcorner/wp-blame).
+
+= Privacy Notice =
+
+WP Blame logs user activities on your WordPress site. This includes usernames, IP addresses, and details of actions performed. Please ensure you have necessary consent and include this information in your site's privacy policy if required by local laws and regulations.
+
+
 == Screenshots ==
 
 1. An example of the logs table.
+2. The Settings page
 
 == Installation ==
 
-1. Download, unzip and upload the package to your plugins directory.
-2. Log into the dashboard and activate within the plugins page.
-3. Review your website logs under Tools > Logs.
+1. Upload the `wp-blame` folder to the /wp-content/plugins/ directory
+2. Activate the plugin through the `Plugins` menu in WordPress
+3. Configure the plugin settings under `Settings > WP Blame`
 
 == Frequently Asked Questions ==
 
@@ -45,11 +69,17 @@ You can, but it's not advised as the Log API has not bee fully developed yet and
 
 You can add usernames to a whitelist of people who's actions should not be logged on the website.
 
+= Is WP Blame compatible with multisite installations? =
+
+Yes, WP Blame is fully compatible with WordPress multisite installations.
+
 == Changelog ==
 
 = 2.1.6= 
 
-* FIX: Fixed a major error occurring in the 'prepare_items()' method, specifically in the pagination calculation.
+* Fixed critical error causing "Division by zero" in log list pagination 
+* Improved overall plugin stability and security 
+* Enhanced compatibility with latest WordPress version
 
 = 2.1.5 = 
 
