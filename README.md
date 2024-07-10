@@ -13,7 +13,7 @@
 
 Installation is best handled from within the WordPress admin area, but you can [download the latest release from the WordPress Plugin Directory](https://wordpress.org/plugins/wp-blame/).
 
-[Documentation on using WP Blame](https://wpcorner.co/wp-blame) is at the author's website. Further support is crowd-sourced via the [WordPress support forums](https://wordpress.org/support/plugin/wp-blame/).
+[Documentation on using WP Blame](https://wpcorner.co/support/wp-blame/) is at the author's website. Further support is crowd-sourced via the [WordPress support forums](https://wordpress.org/support/plugin/wp-blame/).
 
 ## Bug Reports
 
